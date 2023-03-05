@@ -142,7 +142,7 @@ body {
 }
 
 .sidebar_category:hover {
-  background:rgb(211, 209, 209);
+  background: #6e6c6c;
   cursor: pointer;
   text-decoration: none;
 }
