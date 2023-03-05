@@ -3,7 +3,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
+  text-decoration: none;  
 }
 
 body {
@@ -42,27 +43,33 @@ body {
 }
 
 .header_search form {
-  border-radius: 10px;
-  border: .5px solid gray;
-  height: 35px;
-  margin: 20;
+  border-radius: 7px;
+  border: .7px solid gray;
+  height: 40px;
+  margin: 25;
   padding: 0;
   display: flex;
   border-style:solid ;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
 }
 
 .header_search input {
   background-color: black;
+  color: rgba(255, 255, 255, 0.582);
   width: 530px;
-  padding: 10px;
-  margin: 0;
-  border-radius: 10px;
-  border:black ;
+  padding: 0px;
+  padding-left: 10px;
+  margin: 1;
+  border-radius: 0px;
+  border:transparent;
   height: 95%;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
 }
 
 .header_search button {
@@ -120,12 +127,14 @@ body {
   flex-direction: column;
   margin-bottom: 15px;
   margin-top: 15px;
+  
 }
 
 .sidebar_category {
   display: flex;
   align-items: center;
   padding: 12px 25px;
+  
 }
 
 .sidebar_category span {
@@ -133,7 +142,7 @@ body {
 }
 
 .sidebar_category:hover {
-  background: #e5e5e5;
+  background:rgb(211, 209, 209);
   cursor: pointer;
   text-decoration: none;
 }
